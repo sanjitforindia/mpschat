@@ -11,6 +11,7 @@ import net.miginfocom.swing.MigLayout;
 import java.awt.Color;
 import javax.swing.JScrollPane;
 import java.awt.BorderLayout;
+import javax.swing.ImageIcon;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 import javax.swing.JOptionPane;
@@ -87,12 +88,15 @@ public class ClientGUI extends JPanel implements ActionListener {
     final String finalStringToCopy = intermidiateStringToCopy.replace("_____", "");
     final String finalStringToDisply = str.replace("_____", "");
 
-    JLabel tempMessage = null;
+    ChatLabel tempMessage = null;
     if (str.split("_____")[0] != null) {
-      tempMessage = new JLabel("<html>" + str.split("_____")[0] + "<font color=\"RED\">" + finalStringToCopy + "</font></html>");
+      tempMessage = new ChatLabel();
+      tempMessage.setText("<html>" + str.split("_____")[0] + "<font color=\"RED\">" + finalStringToCopy + "</font></html>");
       tempMessage.setToolTipText("Double Click To Copy The Node");
+      tempMessage.setIcon(new ImageIcon("/Users/mastersanjit/Desktop/abc.png"));
     } else {
-      tempMessage = new JLabel(str);
+      tempMessage = new ChatLabel();
+      tempMessage.setText(str);
     }
 
     messageInformationPannel.add(tempMessage, "wrap");
@@ -116,7 +120,8 @@ public class ClientGUI extends JPanel implements ActionListener {
     messageInformationPannel.updateUI();
 
   }
-  /*package*/ void connectionFailed() {
+
+  public void connectionFailed() {
     login.setEnabled(true);
     logout.setEnabled(false);
     whoIsIn.setEnabled(false);
@@ -132,6 +137,7 @@ public class ClientGUI extends JPanel implements ActionListener {
     tf.removeActionListener(this);
     connected = false;
   }
+
   public void actionPerformed(ActionEvent e) {
     Object o = e.getSource();
     // if it the who is in button 
