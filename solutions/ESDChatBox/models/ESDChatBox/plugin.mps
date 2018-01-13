@@ -4450,48 +4450,35 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3FqURMLRXd7" role="3cqZAp">
-              <node concept="2OqwBi" id="3FqURMLRYes" role="3clFbG">
-                <node concept="37vLTw" id="3FqURMLRXd5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="69Pkl5iwEGO" resolve="tempMessage" />
+            <node concept="3clFbF" id="3FqURMLTbuJ" role="3cqZAp">
+              <node concept="37vLTI" id="3FqURMLTeIe" role="3clFbG">
+                <node concept="2OqwBi" id="3FqURMLTcXH" role="37vLTJ">
+                  <node concept="37vLTw" id="3FqURMLTbuH" role="2Oq$k0">
+                    <ref role="3cqZAo" node="69Pkl5iwEGO" resolve="tempMessage" />
+                  </node>
+                  <node concept="2OwXpG" id="3FqURMLTdXi" role="2OqNvi">
+                    <ref role="2Oxat5" node="3FqURMLSE6O" resolve="attachedText" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="3FqURMLRZb9" role="2OqNvi">
-                  <ref role="37wK5l" to="dxuu:~JLabel.setText(java.lang.String):void" resolve="setText" />
-                  <node concept="3cpWs3" id="7wkfST1nOMP" role="37wK5m">
-                    <node concept="Xl_RD" id="7wkfST1nQjG" role="3uHU7w">
-                      <property role="Xl_RC" value="&lt;/font&gt;&lt;/html&gt;" />
+                <node concept="3cpWs3" id="7wkfST1nO9v" role="37vLTx">
+                  <node concept="AH0OO" id="7wkfST1nSKd" role="3uHU7B">
+                    <node concept="3cmrfG" id="7wkfST1nSKe" role="AHEQo">
+                      <property role="3cmrfH" value="0" />
                     </node>
-                    <node concept="3cpWs3" id="7wkfST1nO9v" role="3uHU7B">
-                      <node concept="3cpWs3" id="7wkfST1nRtz" role="3uHU7B">
-                        <node concept="3cpWs3" id="7wkfST1nS6Q" role="3uHU7B">
-                          <node concept="Xl_RD" id="7wkfST1nTE7" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;html&gt;" />
-                          </node>
-                          <node concept="AH0OO" id="7wkfST1nSKd" role="3uHU7w">
-                            <node concept="3cmrfG" id="7wkfST1nSKe" role="AHEQo">
-                              <property role="3cmrfH" value="0" />
-                            </node>
-                            <node concept="2OqwBi" id="7wkfST1nSKf" role="AHHXb">
-                              <node concept="37vLTw" id="7wkfST1nSKg" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3avYRpQYcbn" resolve="str" />
-                              </node>
-                              <node concept="liA8E" id="7wkfST1nSKh" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                                <node concept="Xl_RD" id="7wkfST1nSKi" role="37wK5m">
-                                  <property role="Xl_RC" value="_____" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="7wkfST1nCP$" role="3uHU7w">
-                          <property role="Xl_RC" value="&lt;font color=\&quot;RED\&quot;&gt;" />
+                    <node concept="2OqwBi" id="7wkfST1nSKf" role="AHHXb">
+                      <node concept="37vLTw" id="7wkfST1nSKg" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3avYRpQYcbn" resolve="str" />
+                      </node>
+                      <node concept="liA8E" id="7wkfST1nSKh" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                        <node concept="Xl_RD" id="7wkfST1nSKi" role="37wK5m">
+                          <property role="Xl_RC" value="_____" />
                         </node>
                       </node>
-                      <node concept="37vLTw" id="7wkfST1nWdX" role="3uHU7w">
-                        <ref role="3cqZAo" node="7c7z8ibUn2y" resolve="finalStringToCopy" />
-                      </node>
                     </node>
+                  </node>
+                  <node concept="37vLTw" id="7wkfST1nWdX" role="3uHU7w">
+                    <ref role="3cqZAo" node="7c7z8ibUn2y" resolve="finalStringToCopy" />
                   </node>
                 </node>
               </node>
@@ -4542,15 +4529,17 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="3FqURMLSJxm" role="3cqZAp">
-                <node concept="2OqwBi" id="3FqURMLSKt3" role="3clFbG">
-                  <node concept="37vLTw" id="3FqURMLSJxk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="69Pkl5iwEGO" resolve="tempMessage" />
+              <node concept="3clFbF" id="3FqURMLTiER" role="3cqZAp">
+                <node concept="37vLTI" id="3FqURMLTjAB" role="3clFbG">
+                  <node concept="37vLTw" id="3FqURMLTk$J" role="37vLTx">
+                    <ref role="3cqZAo" node="3avYRpQYcbn" resolve="str" />
                   </node>
-                  <node concept="liA8E" id="3FqURMLSMrE" role="2OqNvi">
-                    <ref role="37wK5l" to="dxuu:~JLabel.setText(java.lang.String):void" resolve="setText" />
-                    <node concept="37vLTw" id="3FqURMLSMRL" role="37wK5m">
-                      <ref role="3cqZAo" node="3avYRpQYcbn" resolve="str" />
+                  <node concept="2OqwBi" id="3FqURMLTlYx" role="37vLTJ">
+                    <node concept="37vLTw" id="3FqURMLTiEP" role="2Oq$k0">
+                      <ref role="3cqZAo" node="69Pkl5iwEGO" resolve="tempMessage" />
+                    </node>
+                    <node concept="2OwXpG" id="3FqURMLTmYa" role="2OqNvi">
+                      <ref role="2Oxat5" node="3FqURMLSE6O" resolve="attachedText" />
                     </node>
                   </node>
                 </node>
@@ -4628,7 +4617,7 @@
                             <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
                             <node concept="10Nm6u" id="5D3S1e2yh6W" role="37wK5m" />
                             <node concept="Xl_RD" id="5D3S1e2yhD8" role="37wK5m">
-                              <property role="Xl_RC" value="Clicked" />
+                              <property role="Xl_RC" value="Node Copied" />
                             </node>
                           </node>
                         </node>
