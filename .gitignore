@@ -1,1 +1,7 @@
-solutions/
+solutions/*
+!solutions/*
+solutions/ESDChatBox/*
+!solutions/ESDChatBox/*
+solutions/ESDChatBox/classes_gen/*
+solutions/ESDChatBox/source_gen/*
+solutions/ESDChatBox/source_gen.caches/*

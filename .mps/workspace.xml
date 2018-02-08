@@ -6,16 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33fe08b-ba51-47a6-9b3e-46cbb7feb6a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/ClientGUI$1.class" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/ClientGUI$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/ClientGUI.class" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/ClientGUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/classes_gen/ESDChatBox/plugin/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen.caches/ESDChatBox/plugin/generated" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen.caches/ESDChatBox/plugin/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/ChatLabel.java" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/ChatLabel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/ClientGUI.java" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/ClientGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/ESDChatBox/source_gen/ESDChatBox/plugin/trace.info" />
-    </list>
+    <list default="true" id="c33fe08b-ba51-47a6-9b3e-46cbb7feb6a8" name="Default" comment="" />
     <ignored path="ESDChatBox.iws" />
     <ignored path=".mps/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
