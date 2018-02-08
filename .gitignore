@@ -1,0 +1,22 @@
+# -----------------------------------------------------------
+# General
+
+.ant_targets
+.DS_Store
+.metadata
+.svn
+*.synctex.gz
+*.aux
+*.log
+*.*.synctex.gz
+*.*.aux
+*.*.log
+*.class
+
+.idea
+workspace.xml
+
+classes_gen
+source_gen
+source_gen.caches
+result_gen
